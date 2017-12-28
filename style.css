@@ -1,0 +1,92 @@
+body{
+    width: 100vw;
+    z-index: -1;
+    background-image: url("http://www.prosportsbackgrounds.com/assets/boston_celtics_2017_hardwood_wallpaper_pc_2.png");
+    background-position: center;
+}
+.class-item {
+    text-align: center;
+}
+#header {
+    margin-left: 33%;
+    width:33%;
+    background-color: #007a33;
+    opacity: 0.7;
+    text-align: center;
+    border: 1px solid white;
+}
+h1 {
+    font-size: 3em;
+    font-family: 'arial', sans-serif;
+    color: white;
+    text-align: center;
+}
+h1 a {
+    display: block;
+    color: white;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+h1:hover: {
+    background-color: white;
+    color: black;
+}
+p { 
+    font-size: 2em;
+    font-family: 'arial', sans-serif;
+    color: white;
+    text-align: center;
+}
+.list-group {
+    margin-left: 16px;
+    margin-top: 5px;
+    text-align: center;
+    opacity: 0.9;
+    border: 1px solid white;
+}
+#numbers {
+    float: left;
+    color: white;
+}
+#names {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#headshot {
+    width: 100px;
+    float: right;
+}
+.list-group-item {
+    width: 463px;
+    color: white;
+    height: 88px;
+    background-color: #007a33;
+}
+.list-group-item a {
+    text-align: center;
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: #555;
+    color: black;
+} 
+.carousel-inner img {
+      width: 695px;
+      height: 433px;
+      margin-top: 5px;
+      border: 1px solid white;
+  }
+.carousel-caption {
+    font-size: 20px;
+    color: white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+
+}
