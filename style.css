@@ -4,6 +4,9 @@ body{
     background-image: url("http://www.prosportsbackgrounds.com/assets/boston_celtics_2017_hardwood_wallpaper_pc_2.png");
     background-position: center;
 }
+.navbar {
+    background: linear-gradient(#007a33,#000000);
+}
 .class-item {
     text-align: center;
 }
@@ -14,6 +17,11 @@ body{
     opacity: 0.7;
     text-align: center;
     border: 1px solid white;
+        text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 h1 {
     font-size: 3em;
@@ -47,11 +55,21 @@ p {
 #numbers {
     float: left;
     color: white;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 #names {
     text-align: center;
     color: white;
     font-size: 20px;
+        text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
 }
 #headshot {
     width: 100px;
@@ -90,5 +108,8 @@ li a:hover {
 		1px 1px 0 #000;
 }
 #form {
-    margin-left: 50%;
+    border: 1px solid white;
+}
+.formP {
+    font-size: 20px;
 }
