@@ -10,7 +10,7 @@ body{
 .class-item {
     text-align: center;
 }
-#header {
+.header {
     margin-left: 33%;
     width:33%;
     background-color: #007a33;
@@ -52,7 +52,7 @@ p {
     opacity: 0.9;
     border: 1px solid white;
 }
-#numbers {
+.numbers {
     float: left;
     color: white;
     text-shadow:
@@ -71,7 +71,7 @@ p {
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 }
-#headshot {
+.headshot {
     width: 100px;
     float: right;
 }
@@ -107,7 +107,7 @@ li a:hover {
 		-1px 1px 0 #000,
 		1px 1px 0 #000;
 }
-#form {
+.form {
     border: 1px solid white;
 }
 .formP {
