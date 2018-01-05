@@ -127,3 +127,9 @@ p {
 .formP {
     font-size: 20px;
 }
+.schedule {
+    display: block;
+    width: 40%;
+    margin: auto;
+    background-color: white;
+}
